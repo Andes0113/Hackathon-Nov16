@@ -1,0 +1,19 @@
+h1{
+    font-size:90px;
+    color: silver;
+    text-align: center;
+    text-decoration: underline;
+}
+body{
+    background-color:black;
+}
+
+.form{
+    text-align: center;
+}
+#dropdown{
+    font-size: 30px
+}
+.main{
+    background-color: whitesmoke;
+}
