@@ -4,6 +4,12 @@ h1{
     text-align: center;
     text-decoration: underline;
 }
+h2{
+    font-size:30px;
+    color: silver;
+    text-align: center;
+    font-style: italic;
+}
 body{
     background-color:black;
 }
@@ -12,8 +18,20 @@ body{
     text-align: center;
 }
 #dropdown{
-    font-size: 30px
+    font-size: 30px;
+    background-color:white;
+
 }
 .main{
     background-color: whitesmoke;
+}
+img{
+    width: 310px;
+    height: 310px;
+}
+p {
+    font-size: 18px;
+    color: blue;
+    text-align: center;
+    font-style: italic;
 }

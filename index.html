@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html lang = "en">
-    <head>
-        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
-        <title>Memory Game</title>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <div class = "header">
-            <h1>Memory Game</h1>
-        </div>
-        <div class = "main">
-            <div class = "form">
-                <select id = "dropdown">
-                    <option value="select">Select Game</option>
-                    <option value="animals">Animals</option>
-                    <option value="sports">Sports</option>
-                    <option value="people">Famous People</option>
-                    <option value="bears">Bears</option>
-                </select>        
-                </div>
-            
-        </div>
-    <script src = "js/script.js"></script>
-    </body>
+    <head>
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+        <title>Memory Game</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class = "header">
+            <h1>Memory Game</h1>
+            <h2>Choose a category and play the image matching game!</h2>
+        </div>
+       
+        <div class = "main">
+            <div class = "form">
+                <select id = "dropdown">
+                    <option value="select">Select Game</option>
+                    <option value="animals">Animals</option>
+                    <option value="sports">Sports</option>
+                    <option value="people">Famous People</option>
+                    <option value="bears">Bears</option>
+                </select>        
+            </div>
+        <p id = "animalprompt">Click on a tile to reveal an animal. Continue to match pairs of animals to earn points!</p> 
+        <p id = "sportsprompt">Click on a tile to reveal a sport. Continue to match pairs of sports to earn points!</p> 
+        <p id = "peopleprompt">Click on a tile to reveal a person. Continue to match pairs of people to earn points!</p> 
+        <p id = "bearsprompt">Click on a tile to reveal a bear. Continue to match pairs of bears to earn points!</p>
+
+            <div class = "game">
+                
+            </div> 
+      </div>
+    <script src = "js/script.js"></script>
+    </body>
 </html>
